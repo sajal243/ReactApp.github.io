@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Eczar&display=swap');
+
+body{
+  background:white;
+}
+
+nav {
+  font-family: 'Eczar', serif;
+  background: #ece363;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.5rem 2%;
+  position: fixed;
+  top:0; left: 0; right: 0;
+  z-index: 1000;
+  text-align: center;
+}
+.navitems {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.navitems h2 {
+  margin:0 1rem;
+  font-size: 2rem;
+}
+ button{
+  font-family: 'Eczar', serif;
+    display: inline-block;
+    padding: 0rem 1rem;
+    font-size: 1.5rem;
+    color:rgb(252, 250, 247);
+    background: rgb(100, 52, 190);
+    border-radius: 5px;
+    cursor: pointer;
+}
+.fetchbtn:hover {
+  letter-spacing: .2rem;
+  background-color: rgb(241, 198, 163);
+  color: rgb(46, 46, 46);
+}
+.userdatacontainer {
+  height: fit-content;
+  background-color: white;
+}
+#main {
+  margin-top: 4rem;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  overflow: hidden;
+  padding-top: 10vh; 
+}
+
+.avatar {
+  height: 10rem;
+  width: 10rem;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+}
+.boxcontainer {
+  font-family: 'Eczar', serif;
+  line-height: 1rem;
+  background:rgb(190, 80, 52);
+  margin: 35px;
+  padding: 25px;
+  height: 20rem;
+  width: 15rem;
+  text-align: center;
+  transition: transform ease 0.2s;
+  margin-top: 2vh;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+
+}
+.boxcontainer:hover {
+  transform: scale(1.2);
+}
+.name:hover {
+  color: rgb(148, 170, 164);
+}
